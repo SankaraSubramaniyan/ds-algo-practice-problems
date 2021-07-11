@@ -6,7 +6,7 @@ class LetterComination {
         
         List<String> result = new ArrayList<>();
         String[] map = new String[]{
-            "","", "abc", "def", "ghi", "ijk", "mno", "pqrs", "tuv", "wxyz"
+            "","", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"
         };
         
         dfs(digits, result, map, new StringBuilder(), 0);
